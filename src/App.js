@@ -16,8 +16,8 @@ const App = () => {
 
   return (
     <Router>
-      <div>
-        <Navbar />
+      <Navbar />
+      <div className="app-container">
         <Routes>{routeComponent}</Routes>
       </div>
     </Router>

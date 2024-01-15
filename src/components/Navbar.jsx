@@ -19,7 +19,7 @@ const Navbar = () => {
                 location.pathname === `${qn}` ? "active-link" : ""
               }`}
             >
-              {components[qn]}
+              {qn}
             </Link>
           </li>
         ))}
